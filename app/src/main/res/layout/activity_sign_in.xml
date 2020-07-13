@@ -8,7 +8,7 @@
     tools:context=".SignInActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/Ukyouchan"
         android:layout_width="412dp"
         android:layout_height="352dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,11 +60,11 @@
         app:layout_constraintVertical_bias="0.688" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/SignInButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#03A9F4"
-        android:text="Button"
+        android:text="Sign in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -73,7 +73,7 @@
         app:layout_constraintVertical_bias="0.937" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/indicate_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Usernameor E-mail adrress"
@@ -86,7 +86,7 @@
         app:layout_constraintVertical_bias="0.619" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/Indicate password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Password"
