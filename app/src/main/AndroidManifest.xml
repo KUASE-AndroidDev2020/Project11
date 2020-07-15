@@ -9,11 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".check_list"></activity>
-        <activity android:name=".news" />
+        <activity android:name=".MainMenuActivity" />
+        <activity android:name=".QuizMenuActivity" />
+        <activity android:name=".SignUpActivity" />
         <activity android:name=".SharingDisasterInfo" />
         <activity android:name=".HazardMap" />
-        <activity android:name=".SignUpActivity" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
