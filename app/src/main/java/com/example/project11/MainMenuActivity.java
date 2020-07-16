@@ -33,4 +33,9 @@ public class MainMenuActivity extends AppCompatActivity {
         Intent toQuizMenu = new Intent(this, QuizMenuActivity.class);
         startActivity(toQuizMenu);
     }
+
+    public void goToNewsActivity(View view) {
+        Intent toNews = new Intent(this, news.class);
+        startActivity(toNews);
+    }
 }

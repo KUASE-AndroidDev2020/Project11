@@ -141,6 +141,7 @@
         android:layout_marginBottom="4dp"
         android:background="#F856D1E1"
         android:text="Info"
+        android:onClick="goToNewsActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

@@ -12,6 +12,7 @@
         <activity android:name=".MainMenuActivity" />
         <activity android:name=".check_list" />
         <activity android:name=".QuizMenuActivity" />
+        <activity android:name=".news"/>
         <activity android:name=".SignUpActivity" />
         <activity android:name=".SharingDisasterInfo" />
         <activity android:name=".HazardMap" />

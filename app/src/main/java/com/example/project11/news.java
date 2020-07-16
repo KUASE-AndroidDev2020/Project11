@@ -40,7 +40,7 @@ public class news extends AppCompatActivity implements View.OnClickListener {
                 }
                 break;
             case R.id.button7:
-                Intent openInfectionLink = new Intent(Intent.ACTION_VIEW,Uri.parse("www.pref.kyoto.jp/idsc/"));
+                Intent openInfectionLink = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.pref.kyoto.jp/idsc/"));
                 if(openInfectionLink.resolveActivity(getPackageManager()) !=null){
                     startActivity(openInfectionLink);
                 }
