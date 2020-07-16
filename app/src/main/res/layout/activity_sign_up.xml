@@ -41,6 +41,7 @@
         android:background="#03A9F4"
         android:text="Sign up"
         android:textColor="#FFFFFF"
+        android:onClick="goToMainActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

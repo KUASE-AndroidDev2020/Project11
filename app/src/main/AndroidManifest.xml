@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainMenuActivity" />
+        <activity android:name=".check_list" />
         <activity android:name=".QuizMenuActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".SharingDisasterInfo" />
