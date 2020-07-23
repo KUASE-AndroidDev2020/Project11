@@ -98,7 +98,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.66"
-        app:srcCompat="@mipmap/ic_prepare_disaster_foreground" />
+        app:srcCompat="@mipmap/ic_marubatu" />
 
     <Button
         android:id="@+id/CheckListButtom"
