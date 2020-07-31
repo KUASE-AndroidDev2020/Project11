@@ -38,4 +38,9 @@ public class JapaneseMainMenuActivity extends AppCompatActivity {
         Intent toJapaneseUser = new Intent(this, UserProfileActivity.class);
         startActivity(toJapaneseUser);
     }
+
+    public void goToJapaneseInformationActivity(View view) {
+        Intent toJapaneseInformation = new Intent(this, JapaneseInformationActivity.class);
+        startActivity(toJapaneseInformation);
+    }
 }
