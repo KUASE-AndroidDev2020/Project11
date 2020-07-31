@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FCCDD8"
-    tools:context=".MainMenuActivity">
+    tools:context=".JapaneseMainMenuActivity">
 
     <TextView
         android:id="@+id/textView11"
@@ -20,28 +20,17 @@
         app:layout_constraintVertical_bias="0.986" />
 
     <TextView
-        android:id="@+id/Welcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome!!"
+        android:id="@+id/Title"
+        android:layout_width="221dp"
+        android:layout_height="69dp"
+        android:text="ようこそ右京区防災アプリ(非公式)へ"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044" />
-
-    <TextView
-        android:id="@+id/Title"
-        android:layout_width="285dp"
-        android:layout_height="43dp"
-        android:text="Protector for Ukyou ward"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Welcome"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.08" />
 
     <ImageView
         android:id="@+id/ukyouchan"
@@ -65,7 +54,6 @@
         android:layout_marginEnd="3dp"
         android:layout_marginRight="3dp"
         android:layout_marginBottom="24dp"
-        android:onClick="goToSharingDisasterInfoActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.995"
@@ -92,8 +80,7 @@
         android:layout_width="185dp"
         android:layout_height="176dp"
         android:background="#00FFFFFF"
-        android:onClick="goToHazardMapActivity"
-        android:text="HazardMap"
+        android:text="ハザードマップ"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
         app:layout_constraintEnd_toEndOf="@+id/imageView8"
@@ -110,10 +97,10 @@
         android:layout_marginRight="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.992"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.622"
+        app:layout_constraintVertical_bias="0.609"
         app:srcCompat="@mipmap/ic_prepare_disaster_foreground" />
 
     <Button
@@ -121,15 +108,14 @@
         android:layout_width="205dp"
         android:layout_height="140dp"
         android:background="#00FFFFFF"
-        android:text="CheckList"
+        android:text="チェックリスト"
         android:textSize="24sp"
-        android:onClick="goToCheckListActivity"
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="@+id/imageView9"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView9"
         app:layout_constraintTop_toTopOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.388" />
+        app:layout_constraintVertical_bias="0.555" />
 
     <Button
         android:id="@+id/information_disaster_button"
@@ -139,8 +125,7 @@
         android:layout_marginRight="4dp"
         android:layout_marginBottom="4dp"
         android:background="#F856D1E1"
-        android:text="Info"
-        android:onClick="goToNewsActivity"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -156,7 +141,6 @@
         android:layout_marginRight="4dp"
         android:layout_marginBottom="1dp"
         android:background="#2BCD87"
-        android:onClick="goToQuizMenuActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.684"
@@ -170,9 +154,8 @@
         android:layout_width="182dp"
         android:layout_height="177dp"
         android:background="#FDBACA"
-        android:text="User"
-        android:textSize="24sp"
-        android:onClick="goToOptionActivity"
+        android:text="ユーザーオプション"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
@@ -180,17 +163,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.993" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:text="(Non Official)"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Welcome"
-        app:layout_constraintVertical_bias="0.06" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

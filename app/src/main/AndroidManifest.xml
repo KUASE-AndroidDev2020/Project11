@@ -9,13 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".JapaneseMainMenuActivity"></activity>
         <activity android:name=".MainMenuActivity">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        <activity android:name=".LanguageChangeActivity"></activity>
-        <activity android:name=".UserProfileActivity" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LanguageChangeActivity" />
         <activity android:name=".OptionActivity" />
         <activity android:name=".check_list" />
         <activity android:name=".QuizMenuActivity" />
@@ -24,13 +26,7 @@
         <activity android:name=".SharingDisasterInfo" />
         <activity android:name=".HazardMap" />
         <activity android:name=".SignInActivity" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
