@@ -2,7 +2,9 @@ package com.example.project11;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class JapaneseMainMenuActivity extends AppCompatActivity {
 
@@ -10,5 +12,10 @@ public class JapaneseMainMenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_japanese_main_menu);
+    }
+
+    public void goToJapaneseHazardMapActivity(View view) {
+        Intent toJapaneseHazardMap = new Intent(this, JapaneseHazardMapActivity.class);
+        startActivity(toJapaneseHazardMap);
     }
 }

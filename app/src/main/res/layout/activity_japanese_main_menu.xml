@@ -82,6 +82,7 @@
         android:background="#00FFFFFF"
         android:text="ハザードマップ"
         android:textSize="24sp"
+        android:onClick="goToJapaneseHazardMapActivity"
         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
         app:layout_constraintEnd_toEndOf="@+id/imageView8"
         app:layout_constraintHorizontal_bias="0.0"
