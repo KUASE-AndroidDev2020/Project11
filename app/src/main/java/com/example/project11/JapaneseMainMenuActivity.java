@@ -23,4 +23,9 @@ public class JapaneseMainMenuActivity extends AppCompatActivity {
         Intent toJapaneseNews = new Intent(this, JapaneseNewsActivity.class);
         startActivity(toJapaneseNews);
     }
+
+    public void goToJapaneseChecklistActivity(View view) {
+        Intent toJapaneseChecklist = new Intent(this, JapaneseChecklistActivity.class);
+        startActivity(toJapaneseChecklist);
+    }
 }
