@@ -18,4 +18,9 @@ public class JapaneseMainMenuActivity extends AppCompatActivity {
         Intent toJapaneseHazardMap = new Intent(this, JapaneseHazardMapActivity.class);
         startActivity(toJapaneseHazardMap);
     }
+
+    public void goToJapaneseNewsActivity(View view) {
+        Intent toJapaneseNews = new Intent(this, JapaneseNewsActivity.class);
+        startActivity(toJapaneseNews);
+    }
 }
