@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Project11</string>
+    <string name="app_name">Ukyo Protector</string>
     <string name="title_activity_hazard_map">HazardMap</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
