@@ -18,4 +18,9 @@ public class LanguageChangeActivity extends AppCompatActivity {
         Intent toJapaneseMainMenu = new Intent(this, JapaneseMainMenuActivity.class);
         startActivity(toJapaneseMainMenu);
     }
+
+    public void goToMainMenuActivity(View view) {
+        Intent toMainMenu = new Intent(this, MainMenuActivity.class);
+        startActivity(toMainMenu);
+    }
 }

@@ -64,6 +64,7 @@
         android:background="#E1F6CF"
         android:text="English"
         android:textSize="18sp"
+        android:onClick="goToMainMenuActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

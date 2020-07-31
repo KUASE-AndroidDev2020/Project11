@@ -160,6 +160,7 @@
         android:background="#FDBACA"
         android:text="ユーザーオプション"
         android:textSize="18sp"
+        android:onClick="goToJapaneseUserActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
