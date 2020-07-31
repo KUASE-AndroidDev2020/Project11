@@ -38,4 +38,9 @@ public class MainMenuActivity extends AppCompatActivity {
         Intent toNews = new Intent(this, news.class);
         startActivity(toNews);
     }
+
+    public void goToOptionActivity(View view) {
+        Intent toOption = new Intent(this, OptionActivity.class);
+        startActivity(toOption);
+    }
 }

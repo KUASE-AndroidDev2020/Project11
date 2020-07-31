@@ -10,8 +10,8 @@
 
     <View
         android:id="@+id/view3"
-        android:layout_width="0dp"
-        android:layout_height="162dp"
+        android:layout_width="412dp"
+        android:layout_height="136dp"
         android:background="#FC5FC374"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,8 +35,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="408dp"
-        android:layout_height="336dp"
+        android:layout_width="405dp"
+        android:layout_height="280dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,28 +47,55 @@
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:background="#DACBF4"
             android:text="Weather information"
+            android:textSize="24sp"
             tools:ignore="MissingConstraints" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/button6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:background="#E3EA97"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:phoneNumber="false"
             android:text="Earthquake information"
+            android:textSize="24sp"
             tools:ignore="MissingConstraints" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/button7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:background="#BCD3FA"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
             android:text="Infectious disease information"
+            android:textSize="24sp"
             tools:ignore="MissingConstraints" />
+
     </LinearLayout>
 
     <TextView
@@ -82,5 +109,6 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.27" />
+        app:layout_constraintVertical_bias="0.257" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
